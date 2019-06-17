@@ -22,3 +22,4 @@ Route::get('about','NoticesController@about');
 Route::get('news','NoticesController@news');
 Route::get('contact','NoticesController@contact');
 Route::get('index','NoticesController@index');
+Route::get('loadImages', 'NoticesController@loadImages');
