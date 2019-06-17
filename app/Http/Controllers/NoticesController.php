@@ -40,6 +40,15 @@ class NoticesController extends Controller
     public function register(){
         return view('register');
     }
+    public function about(){
+        return view('about');
+    }
+    public function news(){
+        return view('news');
+    }
+    public function contact(){
+        return view('contact');
+    }
     public function createuser(Request $request){
             
         $save = $this->post([

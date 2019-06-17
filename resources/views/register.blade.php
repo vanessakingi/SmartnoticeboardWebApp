@@ -39,11 +39,11 @@
 					<i class="fa fa-bars"></i>
 				</div>
 				<ul class="main-menu">
-					<li><a href="index.php">Home</a></li>
-					<li><a href="upload.php">Upload</a></li>
-					<li><a href="about.php">About us</a></li>
-					<li><a href="news.php">News</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="{{url('/index')}}">Home</a></li>
+					<li><a href="{{url('/upload')}}">Upload</a></li>
+					<li><a href="{{url('/about')}}">About us</a></li>
+					<li><a href="{{url('/news')}}">News</a></li>
+					<li><a href="{{url('/contact')}}">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -92,7 +92,7 @@
 						</div>
 						<div style="text-align: center;">
 							<button type = "submit" name = "register" class = "site-btn">Register</button>
-						</br>
+						<br>
 							<p> Already a member? <a href = "{{ url('login') }}">Sign in</a></p>
 						</div>
 					</form>
@@ -115,11 +115,11 @@
 						<a href=""><i class="fa fa-linkedin"></i></a>
 					</div>
 					<ul class="footer-menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="upload.php">Upload</a></li>
-						<li><a href="about.php">About us</a></li>
-						<li><a href="news.php">News</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="{{url('/index')}}">Home</a></li>
+						<li><a href="{{url('/upload')}}">Upload</a></li>
+						<li><a href="{{url('/about')}}">About us</a></li>
+						<li><a href="{{url('/news')}}">News</a></li>
+						<li><a href="{{url('/contact')}}">Contact</a></li>
 					</ul>
 					<div class="footer-logo">
 						<a href="#">
@@ -130,9 +130,9 @@
 
 				<div class="row">
 					<div class="col-12">
-						<p class="text-white  text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>	
+						<p class="text-white  text-center">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |</a>
+						</p>	
 					</div>
 					
 				</div>

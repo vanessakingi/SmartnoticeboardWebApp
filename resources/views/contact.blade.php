@@ -13,17 +13,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet"  href="{{ asset('styles/css/bootstrap.min.css') }}" />
-	<link rel="stylesheet"  href="{{ asset('styles/css/font-awesome.min.css') }}" />
-	<link rel="stylesheet"  href="{{ asset('styles/css/flaticon.css') }}"/>
-	<link rel="stylesheet"  href="{{ asset('styles/css/owl.carousel.css') }}" />
-	<link rel="stylesheet"  href="{{ asset('styles/css/style.css') }}" />
+	<link rel="stylesheet" href="{{ asset('styles/css/bootstrap.min.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('styles/css/font-awesome.min.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('styles/css/flaticon.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('styles/css/owl.carousel.css') }}"/>
+	<link rel="stylesheet" href="{{ asset('styles/css/style.css') }}"/>>
 
 
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 
 </head>
 <body>
@@ -33,12 +29,19 @@
 	</div>
 	
 	<!-- Header section -->
-	<header class="header-section">
+    <header class="header-section">
 		<div class="header-warp">
 			<div class="container">
 				<a href="#" class="site-logo">
 					<img src="{{ asset('styles/img/images (2).jpg') }}" alt="">
 				</a>
+                <div class="user-panel">
+                    @if(@$users == 0)
+                        <a href="{{url('/login')}}">Login</a><span>/</span><a href="{{url('/register')}}">Register</a>
+                    @else
+                        <li><a href="{{url('/logout')}}" title="">Logout</a></li>
+                    @endif
+				</div>
 				<div class="nav-switch">
 					<i class="fa fa-bars"></i>
 				</div>
@@ -54,44 +57,36 @@
 	</header>
 	<!-- Header section end -->
 
-		<!-- Page top section -->
+
+	<!-- Page top section -->
 	<section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/page-top-bg.jpg') }}">
 		<div class="container text-white">
-			<h3>Login In!</h3>
+			<h3>About us</h3>
 		</div>
 	</section>
 	<!--  Page top end -->
 
-	<!-- Login form  -->
-	<section class="login-section spad set-bg" data-setbg="{{ asset('styles/img/bg-login-form.jpg') }}">
+	<!-- Contact section -->
+	<section class="contact-section spad">
 		<div class="container">
 			<div class="row">
-			<!-- <div class="wrapper"> -->
-				<div class="inner">
-					<div class="col-lg-5 image-holder">
-						<figure class="pt-lg-0 pt-5">
-							<img src="{{ asset('styles/img/login-form.jpg') }}" alt="">
-						</figure>
-					</div>
-					<form role='form' class="col-lg-7 login-form" method = "post" action = "{{ url('loginuser') }}">
-                        {{ csrf_field() }}
-						<div class="form-wrapper">
-							<input type="text" name = "username" placeholder="Username" class="form-control">
-						</div>
-						<div class="form-wrapper">
-							<input type="password" name = "password" placeholder="Password" class="form-control">
-						</div>
-						<div style="text-align: center;">
-							<button type = "submit" name = "login" class = "site-btn">Log in</button>
-						</br>
-						<p> Not yet a member? <a href = "{{ url('register') }}">Register</a></p>
-						</div>
-					</form>
+				<div class="col-lg-4 contact-text">
+					<h3>Stay in touch</h3>
+					<p>Look for us today, we help you in all your notices problems. we believe that everyone, every organisation should inform like a pro. we believe no time should be waste putting up notices, memos and stuffs. we are here to help you. Smart noticeboard is a new way to be a pro in communicating withing your organisation</p>
+					<ul class="contact-info">
+						<li><span>Address:</span>EMB 022, JKUAT, TIE Department</li>
+						<li><span>Phone:</span>+2547 28441998</li>
+						<li><span>Email:</span>smartnoticeboard@gmail.com</li>
+						<li><span>Website:</span>www.smartnoticeboard.com</li>
+					</ul>
+				</div>
+				<div class="col-lg-8">
+					<!-- add image -->
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Login form end -->
+	<!-- Contact section end -->
 
 	<!-- Footer section -->
 	<footer class="footer-section spad pb-0">

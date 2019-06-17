@@ -18,3 +18,7 @@ Route::get('register','NoticesController@register');
 Route::post('create','NoticesController@createuser');
 Route::get('upload','NoticesController@upload');
 Route::post('uploadpic','NoticesController@uploadpic');
+Route::get('about','NoticesController@about');
+Route::get('news','NoticesController@news');
+Route::get('contact','NoticesController@contact');
+Route::get('index','NoticesController@index');
