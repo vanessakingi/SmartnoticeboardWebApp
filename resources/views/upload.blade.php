@@ -39,7 +39,7 @@
         <div class="header-warp">
             <div class="container">
                 <a href="#" class="site-logo">
-                    <img src="{{ asset('styles/img/images (2).jpg') }}" alt="">
+                    <img src="{{ asset('styles/img/Logo.jpg') }}" alt="">
                 </a>
                 <div class="user-panel">
                 </div>
@@ -59,7 +59,7 @@
     <!-- Header section end -->
 
     <!-- Page top section -->
-    <section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/page-top-bg.jpg') }}">
+    <section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/Background.jpg') }}">
         <div class="container text-white">
             <h3>Upload your Poster here!</h3>
         </div>
@@ -92,7 +92,7 @@
 
                         <div class="form-wrapper">
                             <div class="date">
-                                <label>Start date Stop Date</label><br>
+                                <label>Start date &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp Stop Date</label><br>
                                 <input type="date" name="start_date" placeholder="Start date">
                                 <input type="date" name="stop_date" placeholder="Stop date">
                             </div><br>
@@ -108,46 +108,32 @@
         </div>
     </section>
 
-    <!-- Footer section -->
-    <footer class="footer-section spad pb-0">
-        <div class="container">
-            <div class="footer-bottom">
-                <div class="social">
-                    <a href=""><i class="fa fa-pinterest"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-dribbble"></i></a>
-                    <a href=""><i class="fa fa-behance"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                </div>
-                <ul class="footer-menu">
-                    <li><a href="{{url('/index')}}">Home</a></li>
-					<li><a href="{{url('/upload')}}">Upload</a></li>
-					<li><a href="{{url('/about')}}">About us</a></li>
-					<li><a href="{{url('/news')}}">News</a></li>
-					<li><a href="{{url('/contact')}}">Contact</a></li>
-                </ul>
-                <div class="footer-logo">
-                    <a href="#">
-                        <img src="{{ asset('styles/img/footer-logo.png') }}" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-					<p class="text-white  text-center">
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |</a>
-					</p>	
+	<!-- Footer section -->
+	<footer class="footer-section spad pb-0">
+			<div class="container">
+				<div class="footer-bottom">
+					<div class="social">
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-dribbble"></i></a>
+						<a href=""><i class="fa fa-behance"></i></a>
+						<a href=""><i class="fa fa-linkedin"></i></a>
+					</div>
 				</div>
 
-            </div>
-        </div>
+				<div class="row">
+					<div class="col-12">
+						<p class="text-white  text-center">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |</a>
+						</p>	
+					</div>
+					
+				</div>
+			</div>
 
-
-
-    </footer>
-    <!-- Footer section end -->
+		</footer>
+		<!-- Footer section end -->
 
 
     <!--====== Javascripts & Jquery ======-->

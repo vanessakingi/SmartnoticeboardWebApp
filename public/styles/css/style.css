@@ -699,32 +699,6 @@ ol {
 	margin-bottom: 20px;
 }
 
-.footer-logo {
-	float: left;
-}
-
-.footer-menu {
-	float: right;
-	list-style: none;
-}
-
-.footer-menu li {
-	display: inline;
-}
-
-.footer-menu li a {
-	display: inline-block;
-	color: #fff;
-	font-weight: 600;
-	font-size: 16px;
-	margin-left: 35px;
-	padding: 10px 0;
-}
-
-.footer-menu li a:hover {
-	color: #f3e830;
-}
-
 .footer-bottom {
 	padding-top: 40px;
 	padding-bottom: 38px;
@@ -732,14 +706,14 @@ ol {
 	overflow: hidden;
 }
 
-.footer-bottom .social {
-	float: right;
+/* .footer-bottom .social {
+
 	margin-left: 80px;
 	padding-top: 7px;
-}
+} */
 
 .footer-bottom .social a {
-	color: #fff;
+	color: rgb(207, 207, 226);
 	margin-left: 25px;
 	padding: 5px 1px;
 }

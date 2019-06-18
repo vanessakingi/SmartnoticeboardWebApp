@@ -33,7 +33,7 @@
 		<div class="header-warp">
 			<div class="container">
 				<a href="#" class="site-logo">
-					<img src="{{ asset('styles/img/images (2).jpg') }}" alt="">
+					<img src="{{ asset('styles/img/Logo.jpg') }}" alt="">
 				</a>
                 <div class="user-panel">
                     @if(@$users == 0)
@@ -59,7 +59,7 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="{{ asset('styles/img/1.jpg') }}">
+	<section class="hero-section set-bg" data-setbg="{{ asset('styles/img/Background.jpg') }}">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
@@ -133,35 +133,35 @@
 
 				<div class="benefit-item">
 					<div class="cc-text">
-						<h5><i class="fa fa-desktop"></i></br>Secure</h5>
+						<h5><i class="fa fa-desktop"></i><br>Secure</h5>
 						<p>No one will post on your noticeboard without your permission. You will have control on what is to be posted, by who and when.</p>
 					</div>
 				</div>
 
 				<div class="benefit-item">
 					<div class="cc-text">
-						<h2><i class="fa fa-cogs"></i></br>Easy to Use</h2>
+						<h2><i class="fa fa-cogs"></i><br>Easy to Use</h2>
 						<p>You dont need extra training. We have made our system so simple that anyone can use it effectively. You just need the knowledge of your computer/ phoneS</p>
 					</div>
 				</div>
 
 				<div class="benefit-item">
 					<div class="cc-text">
-						<h2><i class="fa fa-desktop"></i></br>Prioritization</h2>
+						<h2><i class="fa fa-desktop"></i><br>Prioritization</h2>
 						<p>Ever looked on a noticebaord and you find less important posters pinned on top of more important ones. Worry no more, we got you and with our system, that can not happen</p>
 					</div>
 				</div>
 
 				<div class="benefit-item">
 					<div class="cc-text">
-						<h2><i class="fa fa-code"></i></br>Accessed Remotely</h2>
+						<h2><i class="fa fa-code"></i><br>Accessed Remotely</h2>
 						<p>You can access your noticeboard from anywhere and update it. You don't have to be physically present for you to pin the notice board. </p>
 					</div>
 				</div>
 
 				<div class="benefit-item">
 					<div class="cc-text">
-						<h2><i class="fa fa-code"></i></br>Environment Friendly</h2>
+						<h2><i class="fa fa-code"></i><br>Environment Friendly</h2>
 						<p>No more papers. Save environment! As you have witnessed, noticeboard could become untidy, papers all over, some on top of other and others just fall off and makes environment unclean. Avoid this by using the Smart Noticeboard</p>
 					</div>
 				</div>
@@ -173,44 +173,30 @@
 
 	<!-- Footer section -->
 	<footer class="footer-section spad pb-0">
-		<div class="container">
-			<div class="footer-bottom">
-				<div class="social">
-					<a href=""><i class="fa fa-pinterest"></i></a>
-					<a href=""><i class="fa fa-facebook"></i></a>
-					<a href=""><i class="fa fa-twitter"></i></a>
-					<a href=""><i class="fa fa-dribbble"></i></a>
-					<a href=""><i class="fa fa-behance"></i></a>
-					<a href=""><i class="fa fa-linkedin"></i></a>
+			<div class="container">
+				<div class="footer-bottom">
+					<div class="social">
+						<a href=""><i class="fa fa-pinterest"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-dribbble"></i></a>
+						<a href=""><i class="fa fa-behance"></i></a>
+						<a href=""><i class="fa fa-linkedin"></i></a>
+					</div>
 				</div>
-				<ul class="footer-menu">
-					<li><a href="{{url('/index')}}">Home</a></li>
-					<li><a href="{{url('/upload')}}">Upload</a></li>
-					<li><a href="{{url('/about')}}">About us</a></li>
-					<li><a href="{{url('/news')}}">News</a></li>
-					<li><a href="{{url('/contact')}}">Contact</a></li>
-				</ul>
-				<div class="footer-logo">
-					<a href="#">
-						<img src="{{ asset('styles/img/footer-logo.png') }}" alt="">
-					</a>
+
+				<div class="row">
+					<div class="col-12">
+						<p class="text-white  text-center">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |</a>
+						</p>	
+					</div>
+					
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-12">
-					<p class="text-white  text-center">
-						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
-					</p>	
-				</div>
-				
-			</div>
-		</div>
-
-
-
-	</footer>
-	<!-- Footer section end -->
+		</footer>
+		<!-- Footer section end -->
 
 
 	<!--====== Javascripts & Jquery ======-->

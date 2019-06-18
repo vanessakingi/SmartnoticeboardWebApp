@@ -31,7 +31,7 @@ avicon.ico" rel="shortcut icon"/>
 		<div class="header-warp">
 			<div class="container">
 				<a href="#" class="site-logo">
-					<img src="{{ asset('styles/img/images (2).jpg') }}" alt="">
+					<img src="{{ asset('styles/img/Logo.jpg') }}" alt="">
 				</a>
                 <div class="user-panel">
                     @if(@$users == 0)
@@ -57,7 +57,7 @@ avicon.ico" rel="shortcut icon"/>
 
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/page-top-bg.jpg') }}">
+	<section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/Background.jpg') }}">
 		<div class="container text-white">
 			<h3>Coming Soon</h3>
 		</div>
@@ -76,18 +76,6 @@ avicon.ico" rel="shortcut icon"/>
 						<a href=""><i class="fa fa-behance"></i></a>
 						<a href=""><i class="fa fa-linkedin"></i></a>
 					</div>
-					<ul class="footer-menu">
-						<li><a href="{{url('/index')}}">Home</a></li>
-						<li><a href="{{url('/upload')}}">Upload</a></li>
-						<li><a href="{{url('/about')}}">About us</a></li>
-						<li><a href="{{url('/news')}}">News</a></li>
-						<li><a href="{{url('/contact')}}">Contact</a></li>
-					</ul>
-					<div class="footer-logo">
-						<a href="#">
-							<img src="{{ asset('styles/img/footer-logo.png') }}" alt="">
-						</a>
-					</div>
 				</div>
 
 				<div class="row">
@@ -99,8 +87,6 @@ avicon.ico" rel="shortcut icon"/>
 					
 				</div>
 			</div>
-
-
 
 		</footer>
 		<!-- Footer section end -->

@@ -29,8 +29,8 @@
 	<header class="header-section">
 		<div class="header-warp">
 			<div class="container">
-				<a href="#" class="site-logo">
-					<img src="img/logo.png" alt="">
+				<a href="#" class="site-Logo">
+					<img src="img/Logo.png" alt="">
 				</a>
 				<div class="user-panel">
 					<a href="{{ url('login') }}">Login</a><span>/</span><a href="{{ url('create') }}">Register</a>
@@ -51,7 +51,7 @@
 	<!-- Header section end -->
 
 	<!-- Page top section -->
-	<section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/page-top-bg.jpg') }}">
+	<section class="page-top-section set-bg" data-setbg="{{ asset('styles/img/Background.jpg') }}">
 		<div class="container text-white">
 			<h3>Register Today!</h3>
 		</div>
@@ -114,18 +114,6 @@
 						<a href=""><i class="fa fa-behance"></i></a>
 						<a href=""><i class="fa fa-linkedin"></i></a>
 					</div>
-					<ul class="footer-menu">
-						<li><a href="{{url('/index')}}">Home</a></li>
-						<li><a href="{{url('/upload')}}">Upload</a></li>
-						<li><a href="{{url('/about')}}">About us</a></li>
-						<li><a href="{{url('/news')}}">News</a></li>
-						<li><a href="{{url('/contact')}}">Contact</a></li>
-					</ul>
-					<div class="footer-logo">
-						<a href="#">
-							<img src="{{ asset('styles/img/footer-logo.png') }}" alt="">
-						</a>
-					</div>
 				</div>
 
 				<div class="row">
@@ -137,8 +125,6 @@
 					
 				</div>
 			</div>
-
-
 
 		</footer>
 		<!-- Footer section end -->
