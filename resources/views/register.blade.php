@@ -59,7 +59,7 @@
 	<!--  Page top end -->
 
 	<!-- Registration form  -->
-	<section class="reg-section spad set-bg" data-setbg="{{ asset('styles/img/bg-registration-form.jpg') }}">
+	<section class="reg-section spad set-bg" data-setbg="{{ asset('styles/img/Background_form.jpg') }}">
 		<div class="container">
 			<div class="row">
 			<!-- <div class="wrapper"> -->
@@ -91,7 +91,7 @@
 							<input type="password" name = "password" placeholder="Password" class="form-control">
 						</div>
 						<div style="text-align: center;">
-							<button type = "submit" name = "register" class = "site-btn">Register</button>
+							<button type = "submit" name = "register" class = "site-btn">Register </button>
 						<br>
 							<p> Already a member? <a href = "{{ url('login') }}">Sign in</a></p>
 						</div>

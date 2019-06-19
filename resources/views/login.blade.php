@@ -63,7 +63,7 @@
 	<!--  Page top end -->
 
 	<!-- Login form  -->
-	<section class="login-section spad set-bg" data-setbg="{{ asset('styles/img/bg-login-form.jpg') }}">
+	<section class="login-section spad set-bg" data-setbg="{{ asset('styles/img/Background_form.jpg') }}">
 		<div class="container">
 			<div class="row">
 			<!-- <div class="wrapper"> -->

@@ -141,7 +141,7 @@
 				<div class="benefit-item">
 					<div class="cc-text">
 						<h2><i class="fa fa-cogs"></i><br>Easy to Use</h2>
-						<p>You dont need extra training. We have made our system so simple that anyone can use it effectively. You just need the knowledge of your computer/ phoneS</p>
+						<p>You dont need extra training. We have made our system so simple that anyone can use it effectively. You just need the knowledge of your computer and phones</p>
 					</div>
 				</div>
 

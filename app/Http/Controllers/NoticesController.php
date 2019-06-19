@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Auth;
 use Illuminate\Http\Request;
 
 class NoticesController extends Controller
@@ -78,7 +79,11 @@ class NoticesController extends Controller
 
     public function loginuser(Request $request)
     {
+        if (Auth::user()){
 
+    return redirect()->back();
+        }
+        
         $save = $this->post([
             'username' => $request->username,
             'password' => $request->password,

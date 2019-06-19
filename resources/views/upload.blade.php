@@ -67,7 +67,7 @@
     <!--  Page top end -->
 
     <!-- upload section -->
-    <section class="login-section spad set-bg" data-setbg="{{ asset('styles/img/bg-login-form.jpg') }}">
+    <section class="login-section spad set-bg" data-setbg="{{ asset('styles/img/Background_form.jpg') }}">
         <div class="container">
             <div class="row">
                 <!-- <div class="wrapper"> -->
@@ -112,14 +112,7 @@
 	<footer class="footer-section spad pb-0">
 			<div class="container">
 				<div class="footer-bottom">
-					<div class="social">
-						<a href=""><i class="fa fa-pinterest"></i></a>
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-twitter"></i></a>
-						<a href=""><i class="fa fa-dribbble"></i></a>
-						<a href=""><i class="fa fa-behance"></i></a>
-						<a href=""><i class="fa fa-linkedin"></i></a>
-					</div>
+                    
 				</div>
 
 				<div class="row">

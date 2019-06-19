@@ -72,7 +72,7 @@
 			<div class="row">
 				<div class="col-lg-4 contact-text">
 					<h3>Stay in touch</h3>
-					<p>Look for us today, we help you in all your notices problems. we believe that everyone, every organisation should inform like a pro. we believe no time should be waste putting up notices, memos and stuffs. we are here to help you. Smart noticeboard is a new way to be a pro in communicating withing your organisation</p>
+					<p>Look for us today, we help you solve all your problems in the Noticeboard sector. We believe that everyone, every organisation should inform like a pro. We believe no time should be wasted putting up notices, memos and advertisements. Smart noticeboard is a new way to be a pro in communicating within your organisation</p>
 					<ul class="contact-info">
 						<li><span>Address:</span>EMB 022, JKUAT, TIE Department</li>
 						<li><span>Phone:</span>+2547 28441998</li>
@@ -82,6 +82,11 @@
 				</div>
 				<div class="col-lg-8">
 					<!-- add image -->
+				
+					<figure class="pt-lg-0 pt-8">
+						<img src="{{ asset('styles/img/Contact_Us.webp') }}" alt="">
+					</figure>
+				
 				</div>
 			</div>
 		</div>

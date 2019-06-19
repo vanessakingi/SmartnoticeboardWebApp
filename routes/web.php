@@ -22,16 +22,8 @@ Route::get('about','NoticesController@about');
 Route::get('news','NoticesController@news');
 Route::get('contact','NoticesController@contact');
 Route::get('index','NoticesController@index');
-<<<<<<< HEAD
-Route::get('/', ['as' => 'login', 'uses' => 'NoticesController@index']);
-Route::get('login', 'NoticesController@login');
-Route::post('loginuser', 'NoticesController@loginuser');
-Route::get('register', 'NoticesController@register');
-Route::post('create', 'NoticesController@createuser');
-Route::get('upload', 'NoticesController@upload');
-Route::post('uploadpic', 'NoticesController@uploadpic');
+
+
 Route::get('loadImages', 'NoticesController@loadImages');
 
-=======
-Route::get('loadImages', 'NoticesController@loadImages');
->>>>>>> 9d995759011c879ff7af4ef5f5a566162fff00b4
+

@@ -35,7 +35,7 @@
 				<a href="#" class="site-logo">
 					<img src="{{ asset('styles/img/Logo.jpg') }}" alt="">
 				</a>
-                <div class="user-panel">
+				<div class="user-panel">
                     @if(@$users == 0)
                         <a href="{{url('/login')}}">Login</a><span>/</span><a href="{{url('/register')}}">Register</a>
                     @else
@@ -71,8 +71,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7 about-text">
-					<h3>Hello, We are Smart Noticeboarder</h3>
-					<p>Our organisation was founded to employ the existing technologies to help people present noticeboard in a a=beter, more eco-friendly way. We believe that together we can do more. Smart noticeboard was founded by two Jkuat alumni who have helped the company to grow to the present level. Together we can do more. </p>
+					<h3>Hello, We are Smart Noticeboard</h3>
+					<p>Our organisation was founded to employ the existing technologies to help people present noticeboard in a better, more eco-friendly way. We believe that together we can do more. Smart noticeboard was founded by two Jkuat alumni who have helped the company to grow to the present level. Together we can do more. </p>
 					<a href="#" class="site-btn">Read More <i class="fa fa-angle-right"></i></a>
 				</div>
 				<div class="col-lg-5">

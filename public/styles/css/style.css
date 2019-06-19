@@ -48,7 +48,7 @@ h6 {
 
 p {
 	font-size: 14px;
-	color: #838383;
+	color: #03032c;
 	line-height: 2.1;
 }
 
@@ -392,7 +392,7 @@ ol {
 	margin: 0 auto;
 	overflow: overlay;
 	padding: 50px 0;
-	border-bottom: 3px solid #f3e830;
+
 }
 
 .user-panel {
@@ -409,7 +409,7 @@ ol {
 }
 
 .user-panel a:hover {
-	color: #f3e830;
+	color: #b8b8cf;
 }
 
 .user-panel span {
@@ -421,8 +421,8 @@ ol {
 }
 
 .nav-switch:hover {
-	background: #1a5ed1;
-	color: #f3e830;
+	background: #0a0229;
+	color: #c4bfd3;
 }
 
 .main-menu {
@@ -439,12 +439,13 @@ ol {
 	color: #fff;
 	font-weight: 600;
 	font-size: 16px;
-	margin-left: 35px;
+	margin-left: 40px;
 	padding: 10px 0;
+	
 }
 
 .main-menu li a:hover {
-	color: #f3e830;
+	color: #c4bbf5;
 }
 
 /*------------------
@@ -554,7 +555,7 @@ ol {
 }
 
 .service-item:hover .si-icon i {
-	color: #f3e830;
+	color: #9f8fe7;
 }
 
 /*------------------
@@ -578,12 +579,12 @@ ol {
 	width: 9px;
 	height: 9px;
 	border-radius: 15px;
-	background: #cecece;
+	background: #a099b6;
 	margin: 0 4px;
 }
 
 .benefit-slider .owl-dots .owl-dot.active {
-	background: #1a5ed1;
+	background: #0c0430;
 }
 
 .benefit-page .benefit-item {
@@ -624,14 +625,14 @@ ol {
 }
 
 .benefit-item .cc-text span {
-	color: #838383;
+	color: #f7f7fc;
 	font-size: 14px;
 	margin-right: 15px;
 }
 
 .benefit-item .cc-text span i {
 	font-size: 19px;
-	color: #d2d2d2;
+	color: #faf9fd;
 	margin-right: 2px;
 }
 .benefit-item.featured .benefit-preview {
@@ -649,7 +650,7 @@ ol {
 .benefit-item.featured .featur-badges {
 	position: absolute;
 	width: 175px;
-	background: #f3e830;
+	background: #afa1ec;
 	color: #000;
 	font-size: 14px;
 	text-align: center;
@@ -680,7 +681,7 @@ ol {
 ---------------------*/
 
 .footer-section {
-	background: #1d1d1d;
+	background: #040420;
 	overflow: hidden;
 }
 
@@ -700,20 +701,19 @@ ol {
 }
 
 .footer-bottom {
-	padding-top: 40px;
-	padding-bottom: 38px;
-	border-top: 1px solid #5b5b5b;
+	padding-top: 10px;
+	padding-bottom: 28px;
+	border-top: 1px solid #f6f5fa;
 	overflow: hidden;
 }
 
-/* .footer-bottom .social {
-
-	margin-left: 80px;
+.footer-bottom .social {
+	text-align: center;
 	padding-top: 7px;
-} */
+} 
 
 .footer-bottom .social a {
-	color: rgb(207, 207, 226);
+	color: rgb(250, 250, 253);
 	margin-left: 25px;
 	padding: 5px 1px;
 }
@@ -841,7 +841,7 @@ Login section
 	padding-top: 330px;
 	padding-right: 50px;
 }
-}
+
 /*------------------
   Contact section
 ---------------------*/
@@ -1100,4 +1100,3 @@ Login section
 		padding: 10px 0;
 		font-weight: 600;
 	}
-}
